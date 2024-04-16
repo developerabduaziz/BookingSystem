@@ -9,9 +9,9 @@ namespace Domain.Entities
         public int Id { get; set; }
         public DateTime BookingDate { get; set; }
         public decimal TotalPrice { get; set; }
-        public User User { get; set; } // Пользователь, сделавший бронирование
-        public Event Event { get; set; } // Мероприятие, на которое сделано бронирование
-        public HotelRoom Room { get; set; } // Номер отеля, забронированный пользователем
+        public User User { get; set; } 
+        public Event Event { get; set; } 
+        public HotelRoom Room { get; set; } 
         public TransportTicket Ticket { get; set; }
     }
 }
