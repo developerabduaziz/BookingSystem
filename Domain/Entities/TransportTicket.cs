@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Domain.Entities
 {
-    public class ransportTicket
+    public class TransportTicket
     {
         public int Id { get; set; }
         public string TransportType { get; set; }
