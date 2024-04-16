@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <Folder Include="Entity\" />
+    <Folder Include="Enum\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
 
 </Project>
